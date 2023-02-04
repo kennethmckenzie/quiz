@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #F4F1DE;
+    --secondary-color: #E07A5F;
+    --third-color: #3D405B;
+    --fourth-color: #81B29A;
+    --fifth-color: #F2CC8F;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body {
+    height: 100%;
+    background-color: var(--fourth-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+#container{
+    padding: 5rem;
+    margin: auto;
+}

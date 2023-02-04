@@ -1,0 +1,109 @@
+
+1.  What does CSS stand for?
+
+Cascading Style Sheets *****
+Colorful Style Sheets
+Computer Style Sheets
+Creative Style Sheets
+
+
+
+2. Where in an HTML document is the correct place to refer to an external style sheet (style.css)?
+
+At the end of the document
+In the <body> section
+In the <head> section *****
+
+
+
+3. What is the correct HTML for referring to an external style sheet? (linking your HTML and Style sheet together)
+
+<stylesheet>mystyle.css</stylesheet>
+<style src="mystyle.css">
+<link rel="stylesheet" type="text/css" href="mystyle.css"> ******
+
+
+
+4. Which property is used to change the background color?
+
+background-color ******
+color
+bgcolor
+border-color
+
+
+
+
+5. Which CSS property controls the text size?
+
+text-size
+font-size ******
+text-style
+font-style
+
+
+
+6. Which property is used to change the font of an element?
+
+font-style
+font-family ******
+font-weight
+
+
+
+
+7. Which of the following is a component of CSS style rule?
+
+Selector
+Property
+Value
+All of the Above ****
+
+
+
+
+
+8. Which of the following property is used to set the height of an image?
+
+border
+height ******
+width
+size
+
+
+
+9. Which of the following property specifies the color of the whole border?
+
+border-color *******
+border-style
+border-width
+border-bottom-color
+
+
+
+10. What does a hyperlink do?
+
+Takes you to another web page ****
+Closes the Internet browser
+Opens the Internet browser
+Takes you to another website ******
+
+
+
+
+11. Where to upload the website after it has been created?
+Client
+Server ******
+Desktop
+Drive
+
+
+
+
+12. Style sheets can be?
+Internal
+External
+Both
+None
+
+
