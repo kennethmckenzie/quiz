@@ -4,6 +4,7 @@
     --third-color: #3D405B;
     --fourth-color: #81B29A;
     --fifth-color: #F2CC8F;
+    --shadow:  0.1rem 0.2rem 0.2rem #000000;
 }
 
 *, 
@@ -20,7 +21,7 @@
 html, 
 body {
     height: 100%;
-    background-color: var(--fourth-color);
+    background-color: var(--third-color);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -30,7 +31,100 @@ h1{
     font-size: 3rem;
 }
 
+p{
+    font-size: 1.3rem;
+}
+
 #container{
     padding: 5rem;
     margin: auto;
+}
+
+#quiz-container{
+    background-color: var(--primary-color);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 0.2rem;
+    box-shadow: var(--shadow);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#quiz-header{
+    padding: 2rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+#quiz-body{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column
+}
+
+#quiz-body h2{
+   margin-bottom: 1.5rem;
+}
+
+.answer-btn{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--fifth-color);
+    font-size: 1rem;
+}
+
+#start-btn{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--fifth-color);
+}
+
+#start-btn:hover{
+    background-color: var(--third-color);
+    color: white;
+}
+
+.answer-btn:hover{
+    background-color: var(--third-color);
+    color: white;
+}
+
+#answer{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--fifth-color);
+    display: none;
+}
+
+#answer:hover{
+    background-color: var(--third-color);
+    color: white;
+}
+
+#next-btn{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--fifth-color);
+    display: none;
+}
+
+#next-btn:hover{
+    background-color: var(--third-color);
+    color: white;
+}
+
+#quiz-footer{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
