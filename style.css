@@ -82,13 +82,13 @@ p{
     font-size: 1rem;
 }
 
-#start-btn{
+.operation-btn{
     padding: 1rem;
     cursor: pointer;
     background-color: var(--fifth-color);
 }
 
-#start-btn:hover{
+.operation-btn:hover{
     background-color: var(--third-color);
     color: white;
 }
@@ -98,33 +98,27 @@ p{
     color: white;
 }
 
-#answer{
-    padding: 1rem;
-    cursor: pointer;
-    background-color: var(--fifth-color);
-    display: none;
-}
-
-#answer:hover{
-    background-color: var(--third-color);
-    color: white;
-}
-
-#next-btn{
-    padding: 1rem;
-    cursor: pointer;
-    background-color: var(--fifth-color);
-    display: none;
-}
-
-#next-btn:hover{
-    background-color: var(--third-color);
-    color: white;
-}
-
 #quiz-footer{
     padding: 1rem 2rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.correct, .correct:hover, .correct:focus, .correct:visited{
+    color: white;
+    background-color: var(--fourth-color);
+}
+
+.wrong, .wrong:hover, .wrong:focus, .wrong:visited{
+    color: white;
+    background-color: var(--secondary-color);
 }

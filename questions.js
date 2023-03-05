@@ -13,17 +13,8 @@ export const questions = [
         question:'Where in an HTML document is the correct place to refer to an external style sheet (style.css)?', 
         answers: [
             {answer: 'At the end of the document', correctAnswer: false },
-            {answer: 'In the <body> section', correctAnswer: false },
-            {answer: 'In the <head> section', correctAnswer: true }
-        ]
-
-    },
-    {
-        question:'What is the correct HTML for referring to an external style sheet? (linking your HTML and Style sheet together)', 
-        answers: [
-            {answer: '<stylesheet>mystyle.css</stylesheet>', correctAnswer: false },
-            {answer: '<style src="mystyle.css">', correctAnswer: false },
-            {answer: '<link rel="stylesheet" type="text/css" href="mystyle.css">', correctAnswer: true }
+            {answer: 'In the body section', correctAnswer: false },
+            {answer: 'In the head section', correctAnswer: true }
         ]
 
     },
@@ -55,16 +46,7 @@ export const questions = [
             {answer: 'font-weight', correctAnswer: false }
         ]
 
-    },
-    {
-        question:'Which of the following is a component of CSS style rule? (Select all that apply)', 
-        answers: [
-            {answer: 'Selector', correctAnswer: true },
-            {answer: 'Property', correctAnswer: true },
-            {answer: 'Value', correctAnswer: true },
-        ]
-
-    },
+    },    
     {
         question:'Which of the following property is used to set the height of an image?', 
         answers: [
@@ -86,12 +68,11 @@ export const questions = [
 
     },
     {
-        question:'What does a hyperlink do? (Select all that apply)', 
+        question:'What does a hyperlink do?', 
         answers: [
             {answer: 'Takes you to another web page', correctAnswer: true },
             {answer: 'Closes the Internet browser', correctAnswer: false },
-            {answer: 'Opens the Internet browser', correctAnswer: false },
-            {answer: 'Takes you to another website', correctAnswer: true}
+            {answer: 'Opens the Internet browser', correctAnswer: false }
         ]
 
     },

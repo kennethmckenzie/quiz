@@ -11,31 +11,22 @@
 
         <div id="quiz-container">
             <div id="quiz-header">
-                <p>Score: <span id="scorecard"></span></p>
-                <p>Time Left: <span id="time-output"></span</p>
+                <p>Score: <span data-output="scorecard" id="scorecard"></span></p>
+                <p>Time Left: <span data-output="time-output" id="time-output"></span</p>
             </div>
-            <div id="quiz-body">
-
-                <h2>Press start to start the quiz. </h2>
-
-
-                <!-- <h2>1. What does CSS stand for?</h2>
-                <button class="answer-btn correct-answer">Cascading Style Sheets</button>
-                <button class="answer-btn">Colorful Style Sheets</button>
-                <button class="answer-btn wrong-answer">Computer Style Sheets</button>
-                <button class="answer-btn">Creative Style Sheets</button> -->
-
-                
+            <div data-output="quiz-body" id="quiz-body">
+                <h2>Press start to begin the quiz. </h2>
             </div>
             <div id="quiz-footer">
-                <p><span id="current-number-output"></span> of <span id="number-of-questions-output"></span> Questions</p>
-                <button id="start-btn">START</button>
-                <button id="answer">ANSWER</button>
-                <button id="next-btn">NEXT</button>
+                <p><span data-output="current-number-output" id="current-number-output"></span> of <span data-output="number-of-questions-output" id="number-of-questions-output"></span> Questions</p>
+                <button data-operator="start" id="start-btn" class="operation-btn">START</button>
+                <button data-operator="next" id="next-btn" class="hide operation-btn">NEXT</button>
+                <button data-operator="finish" id="finish-btn" class="hide operation-btn">FINISH</button>
+                <button data-operator="restart" id="restart-btn" class="hide operation-btn">TRY AGAIN</button>
             </div>
         </div>
         
     </div>
-    <script type="module" src="./script.js"></script>
+    <script type="module" src="./v5.js"></script>
 </body>
 </html>
